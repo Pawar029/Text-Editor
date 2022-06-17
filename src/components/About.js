@@ -3,11 +3,15 @@
   export default function About() {
     return (
     <div>
-       Sunil Ratnakar Pawar
-       Remember you must use an exac parameter with the Route component as it disables the partial matching of the route and makes sure that it only returns the route if the path is exact.
-       So here we complete the 16th video of this React series. In the upcoming videos, we will be covering a lot of new concepts of React with some amazing projects that would allow you to understand React completely.  Do remember to Access the playlist of the Free React Course in Hindi by clicking here. Thank you for being with me throughout the tutorial. See you all in the next tutorial. Till then, Keep learning and Keep Coding.
-       Check out our Github to access the source code at this point in the course,  Click Here
+       <h2>Sunil Ratnakar Pawar</h2>
+      <h3> Innovative environment</h3>
+TDM Systems Inc. is the leading software provider for managing tool data and tools in the metal cutting industry. We belong to the SANDVIK Group and are surrounded by innovative tool manufacturers and system providers in the Sandvik Manufacturing and Machining Solutions division, with whom we work together to create the best solutions for improved digitalization and efficiency in metal cutting companies.
 
+<h3>Focus on tool management</h3>
+TDM Systems is the only provider on the market that has focused completely on software solutions and services relating to tool data management over the last 30 years. TDM Systems contributes to optimized planning and provision of metal-cutting tools from all manufacturers by offering a wide range, which includes numerous software modules and interfaces. We support customers all over the world and offer solutions for every company size: From small suppliers to comprehensive group solutions including multi plant connections.
+
+<h3>The solution of the future</h3>
+With TDM Cloud Essentials, we have developed a product that is exactly tailored to the needs of small and medium-sized companies. Our goal is to drive forward these companies in their digitalization and to secure their competitiveness for the future. TDM Cloud Essentials is a very practical and simple standard solution based on the most up-to-date cloud technology. Take the chance now for more efficiency, transparency and cost reductions, and use our expertise for your digitalization strategy!
  
     </div>
     )

@@ -5,13 +5,13 @@ import './App.css';
 import Alert from './components/Alert';
 import Navbar from './components/Navbar';
 import TextForms from './components/TextForms';
-// import {BrowserRouter as Router,
-//   //  Switch,
-//    Route,
-//   //  Link,
-//    Routes
-//   } from "react-router-dom";
-// import About from './components/About';
+import {BrowserRouter as Router,
+  //  Switch,
+   Route,
+  //  Link,
+   Routes
+  } from "react-router-dom";
+import About from './components/About';
 
 
 function App() {
@@ -40,18 +40,18 @@ function App() {
   }
   return (
     <>
-    {/* <Router> */}
+    <Router>
     <h2>SUNIL RATNAKAR PAWAR</h2>
     <Navbar title="Text Design" about="About Text" mode={Mode} toggleMode={toggleMode}/>
     <Alert alert = {alert}/>
     <div className="container my-3"> 
     <TextForms showAlert={showAlert} heading = "Enter the text you want to change" mode={Mode}/>
-       {/* <Routes>
-        <Route exact path="/" element={<TextForms showAlert={showAlert} heading = "Enter the text you want to change" mode={Mode}/>} />
+       <Routes>
+        {/* <Route exact path="/" element={<TextForms showAlert={showAlert} heading = "Enter the text you want to change" mode={Mode}/>} /> */}
         <Route exact path="/about" element={<About/>} />
-      </Routes> */}
+      </Routes>
     </div>
-     {/* </Router> */}
+     </Router>
     </>
   );
 }
